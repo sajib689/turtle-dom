@@ -1,0 +1,7 @@
+.turt {
+    position: relative;
+    --x: 0;
+    --y: 0;
+    transform: translateX(var(--x)) translateY(var(--y));
+    transition: transform 0.2s;
+}
